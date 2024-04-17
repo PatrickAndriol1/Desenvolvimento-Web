@@ -1,6 +1,8 @@
 # Módulo 2 - Introdução ao Desenvolvimento Web
+
 Neste módulo iremos dar nossos primeiros passos no mundo do
 desenvolvimento de páginas Web. Nosso roadmap para esse módulo será:
+
 1. Introdução ao Desenvolvimento Web
 2. Primeiros passos com HTML e Javascript
 3. Teste
