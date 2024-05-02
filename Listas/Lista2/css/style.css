@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: linear-gradient(#00b2aa, #ecdeed);
+}
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 10%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+h4 {
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+}
+p {
+    text-align: center;
+}
+button {
+    height: 30px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: none;
+    border-radius: 3px; /* Coloquei 3px pois 10% distorceria a borda do botão */
+
+    color: white;
+    background: linear-gradient(#c3195d, #680747);
+}
+button:hover {
+    background: linear-gradient(#c3195d85, #68074886);
+}
