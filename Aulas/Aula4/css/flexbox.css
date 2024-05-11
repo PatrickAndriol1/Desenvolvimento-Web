@@ -1,0 +1,69 @@
+.conteudo-geral {
+    width: 100%;
+    height: 100%;
+    background: #242832;
+    display: flex;
+}
+.esquerda {
+    height: 96%;
+    width: 50%;
+    background: #78a2fb;
+    margin: 1%;
+    margin-right: 0.5%;
+
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 26px 3px rgba(120,162,251,1);
+}
+.esquerda img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    border: solid;
+}
+.esquerda p {
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.direita {
+    height: 96%;
+    width: 50%;
+    background: #f8b3d7;
+    margin: 1%;
+    margin-left: 0.5%;
+
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 26px 3px rgba(248,179,215,0.63);
+}
+.direita input, button {
+    height: 20px;
+    width: 200px;
+
+    font-size: small;
+    text-align: center;
+
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.direita button {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(#78a2fb, #cc2362);
+    transition: 0.2s all;
+}
+.direita button:active {
+    background: linear-gradient(#4c66a0, #7b153a);
+}
